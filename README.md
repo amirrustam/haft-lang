@@ -19,7 +19,7 @@ Screenshots are with the Tomorrow Night Bright color scheme.
 
 + Open the command palette (`CTRL+SHIFT+P` or `CMD+SHIFT+P`).
 + Find `Package Control: Install Package`.
-+ Search for `HaftLang`
++ Search for `Haft Lang`
 
 ##### Manual
 
