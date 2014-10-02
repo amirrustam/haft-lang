@@ -35,7 +35,7 @@ Activate the theme by configuring the `theme` setting in your user preferences:
 
 ### Theme
 
-Haft Lang is inspired and based off the [Devastate](https://github.com/vlakarados/devastate) theme by [Sergey Telshevsky](https://github.com/vlakarados). Haft Lang tries to be even more minimal and clutter-free than the already super minimal Devastate. It's just you and your code/text.
+Haft Lang is inspired by the [Devastate](https://github.com/vlakarados/devastate) theme by [Sergey Telshevsky](https://github.com/vlakarados). Haft Lang tries to be even more minimal and clutter-free than the already super minimal Devastate. It's just you and your code/text.
 
 
 ### Color scheme
@@ -62,5 +62,6 @@ If you run into any problems submit an issue and send a pull request to make fix
 
 ### License
 
-Released under MIT License.
+Haft Lang is released under [MIT License](https://github.com/amirrustam/haft-lang/blob/master/LICENSE).
+Tomorrow Theme and Base16 are released under [MIT License](https://github.com/amirrustam/haft-lang/blob/master/LICENSE). 
 
