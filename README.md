@@ -44,11 +44,11 @@ Haft Lang ships with [Tomorrow Night Bright](https://github.com/ChrisKempson/Tom
 
 To use one of the themes just configure the `color_scheme` setting:
 
-    "color_scheme": "Packages/Theme - HaftLang/Tomorrow-Night-Bright.tmTheme"
+    "color_scheme": "Packages/Theme - Haft Lang/Tomorrow-Night-Bright.tmTheme"
 
 or
 
-    "color_scheme": "Packages/Theme - HaftLang/base16-bright.dark.tmTheme"
+    "color_scheme": "Packages/Theme - Haft Lang/base16-bright.dark.tmTheme"
 
 
 ### What the heck does "Haft Lang" mean?
