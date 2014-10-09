@@ -1,10 +1,16 @@
 [
     {
-        "class": "icon_folder",
-        "layer0.texture": "Theme - Default/icons/folder.png",
-        "layer0.opacity": 1,
-        "content_margin": [8, 8]
-    },
+       "class": "icon_file_type",
+       "content_margin": [0,0]
+   },
+   {
+       "class": "icon_folder",
+       "content_margin": [0,0]
+   },
+   {
+       "class": "icon_folder_loading",
+       "content_margin": [0,0]
+   },
 
 //
 // TABS
@@ -37,7 +43,7 @@
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
         "content_margin": [8,0,8,0],
-        "layer0.tint": [28,28,28],
+        "layer0.tint": [0,0,0],
         "layer0.opacity": 1
     },
     // Tab close state (!show_tab_close_buttons)
@@ -57,7 +63,7 @@
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.tint": [40,40,40]
+        "layer0.tint": [0,0,0]
     },
     // Tab active state (!show_tab_close_buttons)
     {
