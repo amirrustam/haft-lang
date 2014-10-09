@@ -18,7 +18,7 @@
         "tab_overlap": 1,
         "tab_width": 180,
         "tab_min_width": 40,
-        "tab_height": 21,
+        "tab_height": 22,
         "mouse_wheel_switch": false
     },
     {
@@ -389,7 +389,12 @@
         "parents": [{"class": "status_bar"}],
         "color": [140,140,140],
         "font.size": 11,
-        "font.face": "Droid Sans Mono"
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "settings": ["status_bar_font_source_code_pro"],
+        "font.face": "Source Code Pro"
     },
 //
 // SIDEBAR
@@ -397,14 +402,14 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "content_margin": [5,5,1,5],
-        "layer0.tint": [20,20,20],
+        "content_margin": [0,5,1,5],
+        "layer0.tint": [0,0,0],
         "layer0.opacity": 1
     },
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [8,4],
+        "row_padding": [10,4],
         "indent": 12,
         "indent_offset": 14,
         "indent_top_level": false,
@@ -413,23 +418,26 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.opacity": 0
+        "layer0.opacity": 0,
     },
     // Sidebar row selected
     {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.tint": [34,34,34],
+        "layer0.tint": [30,30,30],
         "layer0.opacity": 1
     },
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [60,60,60],
-        "shadow_color": [0,0,0],
-        "shadow_offset": [0,1],
+        "color": [70,70,70],
         "font.size": 12,
-        "font.face": "Droid Sans Mono"
+        "font.bold": false,
+    },
+    {
+        "class": "sidebar_heading",
+        "settings": ["sidebar_font_source_code_pro"],
+        "font.face": "Source Code Pro"
     },
     // Sidebar heading selected
     {
@@ -442,43 +450,40 @@
         "color": [100,100,100],
         "shadow_offset": 0,
         "font.bold": false,
-        "font.size": 11,
-        "font.face": "Droid Sans Mono"
+        "font.size": 11
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["sidebar_font_source_code_pro"],
+        "font.face": "Source Code Pro"
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [200,200,200],
-        "shadow_offset": 0
+        "color": [200,200,200]
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [140,140,140],
-        "shadow_color": [0,0,0],
-        "shadow_offset": [0,1]
+        "color": [200,200,200]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable","hover"]}],
-        "color": [200,200,200],
-        "shadow_color": [0,0,0],
-        "shadow_offset": [0,1]
+        "color": [200,200,200]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
-        "font.bold": false
+        "font.bold": true,
     },
     // Sidebar entry selected
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [180,180,180],
-        "shadow_color": [0,0,0],
-        "shadow_offset": [0,1]
+        "color": [180,180,180]
     },
 //
 // SIDEBAR - OPEN FILE ICONS
@@ -544,6 +549,11 @@
     },
     {
         "class": "disclosure_button_control",
+        "settings": ["no_folder_icons"],
+        "layer0.opacity": 0
+    },
+    {
+        "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.tint": [200,200,200]
     },
@@ -570,6 +580,11 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "layer0.texture": "Theme - Haft Lang/Haft Lang/folder-open.png"
+    },
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["expanded"],
+        "settings": ["haft_lang_folder_icons"]
     },
     {
         "class": "disclosure_button_control",
